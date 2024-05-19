@@ -109,17 +109,10 @@ img {
   outline-offset: 2px;
 }
 
-@media (hover: hover) and (pointer: fine) {
   .button:hover {
     opacity: 0.8;
   }
-}
 
-/* @media (hover: none) and (pointer: coarse) {
-  .button:hover {
-    opacity: 0.8;
-  }
-}  */
 .logo {
   max-width: clamp(4.8125rem, 2.6161rem + 10.9821vw, 12.5rem);
   cursor: default;
