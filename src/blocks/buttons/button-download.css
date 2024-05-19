@@ -1,0 +1,5 @@
+.button-download {
+  grid-area: button;
+  justify-self: center;
+  align-self: center;
+}

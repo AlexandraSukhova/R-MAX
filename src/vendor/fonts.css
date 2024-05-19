@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'DinProCondensed';
+  src: url('./fonts/Din-Pro-Condensed_regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DinProCondensed';
+  src: url('./fonts/Din-Pro-Condensed_medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}

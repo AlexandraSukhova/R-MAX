@@ -1,0 +1,22 @@
+.content__description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  cursor: default;
+}
+
+@media (width <= 820px) {
+  .content__description-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (orientation: landscape) and (width <= 932px) {
+  .content__description {
+    row-gap: 15px;
+  }
+
+  .content__description-text {
+    font-size: 18px;
+  }
+}

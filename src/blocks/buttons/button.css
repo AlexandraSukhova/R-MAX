@@ -1,0 +1,38 @@
+@import url('./button-download.css');
+@import url('./button-touched.css');
+
+.button {
+  max-width: clamp(13.4375rem, 7.9911rem + 27.2321vw, 32.5rem);
+  padding: 20px 30px;
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity .2s;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+  font-size: var(--accent-font-size);
+  font-weight: 500;
+}
+
+
+.button:active {
+  border: 3px solid var(--main-text-color);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--main-text-color);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    opacity: 0.8;
+  }
+}
+
+/* @media (hover: none) and (pointer: coarse) {
+  .button:hover {
+    opacity: 0.8;
+  }
+}  */

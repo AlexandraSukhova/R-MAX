@@ -1,0 +1,4 @@
+.logo {
+  max-width: clamp(4.8125rem, 2.6161rem + 10.9821vw, 12.5rem);
+  cursor: default;
+}
