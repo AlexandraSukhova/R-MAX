@@ -89,7 +89,7 @@ img {
   max-width: clamp(13.4375rem, 7.9911rem + 27.2321vw, 32.5rem);
   padding: 20px 30px;
   background-color: var(--accent-color);
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   border-radius: 20px;
   opacity: 1;
   transition: opacity .2s;
