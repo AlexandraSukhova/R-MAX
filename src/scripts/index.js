@@ -1,9 +1,11 @@
 import '../pages/index.css'
+import catalog from '../catalog/R-Max_2024.pdf'
+
 
 const buttonDownload = document.querySelector('.button-download');
 
 const fileDownload = {
-  link: "./catalog/R-Max_2024.pdf",
+  link: catalog,
   name: "R-MAX_2024.pdf"
 }
 
@@ -13,20 +15,8 @@ function triggerDownload(file) {
   link.download = file.name;
   link.href = (file.link);
   document.body.append(link);
-  //link.click();
-  //link.remove();
+  link.click();
+  link.remove();
 }
 
 buttonDownload.addEventListener('click', () => triggerDownload(fileDownload));
-
-document.addEventListener('touchstart', function(event) {
-  if(event.target.matches('.button-download')) {
-      event.target.classList.add('button-touched');
-  }
-});
-
-document.addEventListener('touchend', function(event) {
-  if(event.target.matches('.button-download')) {
-      event.target.classList.remove('button-touched');
-  }
-});
