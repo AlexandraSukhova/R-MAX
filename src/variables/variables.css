@@ -8,7 +8,7 @@
   --main-font-weight: 400;
   --accent-font-weight: 500;
   --padding: 40px;
-  --font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
+  --font-size: clamp(1.125rem, 0.875rem + 1.25vw, 2rem);
   --accent-font-size: clamp(2.5rem, 1.5rem + 5vw, 6rem);
   --breakpoint: 768px;
 }

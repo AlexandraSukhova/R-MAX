@@ -51,7 +51,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: "nobuild", to: "dist" },
+        { from: "nobuild", to: "dev" },
       ],
     })
   ]
